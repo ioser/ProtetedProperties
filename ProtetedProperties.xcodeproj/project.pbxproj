@@ -18,6 +18,8 @@
 		9A5A899B172854BE0048D1F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A899A172854BE0048D1F5 /* Default-568h@2x.png */; };
 		9A5A899E172854BE0048D1F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A5A899C172854BE0048D1F5 /* MainStoryboard.storyboard */; };
 		9A5A89A1172854BE0048D1F5 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89A0172854BE0048D1F5 /* SBViewController.m */; };
+		9A5A89AA1728550B0048D1F5 /* SBShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89A91728550B0048D1F5 /* SBShape.m */; };
+		9A5A89AD172856FC0048D1F5 /* SBRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89AC172856FC0048D1F5 /* SBRectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,11 @@
 		9A5A899D172854BE0048D1F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9A5A899F172854BE0048D1F5 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
 		9A5A89A0172854BE0048D1F5 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		9A5A89A81728550B0048D1F5 /* SBShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBShape.h; sourceTree = "<group>"; };
+		9A5A89A91728550B0048D1F5 /* SBShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBShape.m; sourceTree = "<group>"; };
+		9A5A89AB172856FC0048D1F5 /* SBRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBRectangle.h; sourceTree = "<group>"; };
+		9A5A89AC172856FC0048D1F5 /* SBRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBRectangle.m; sourceTree = "<group>"; };
+		9A5A89AF172858B70048D1F5 /* SBShape_ProtectedProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBShape_ProtectedProperties.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +90,12 @@
 		9A5A898A172854BE0048D1F5 /* ProtetedProperties */ = {
 			isa = PBXGroup;
 			children = (
-				9A5A8993172854BE0048D1F5 /* SBAppDelegate.h */,
-				9A5A8994172854BE0048D1F5 /* SBAppDelegate.m */,
+				9A5A89A7172854E20048D1F5 /* Model */,
 				9A5A899C172854BE0048D1F5 /* MainStoryboard.storyboard */,
 				9A5A899F172854BE0048D1F5 /* SBViewController.h */,
 				9A5A89A0172854BE0048D1F5 /* SBViewController.m */,
+				9A5A8993172854BE0048D1F5 /* SBAppDelegate.h */,
+				9A5A8994172854BE0048D1F5 /* SBAppDelegate.m */,
 				9A5A898B172854BE0048D1F5 /* Supporting Files */,
 			);
 			path = ProtetedProperties;
@@ -105,6 +113,18 @@
 				9A5A899A172854BE0048D1F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A5A89A7172854E20048D1F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A5A89A81728550B0048D1F5 /* SBShape.h */,
+				9A5A89A91728550B0048D1F5 /* SBShape.m */,
+				9A5A89AB172856FC0048D1F5 /* SBRectangle.h */,
+				9A5A89AC172856FC0048D1F5 /* SBRectangle.m */,
+				9A5A89AF172858B70048D1F5 /* SBShape_ProtectedProperties.h */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +197,8 @@
 				9A5A8991172854BE0048D1F5 /* main.m in Sources */,
 				9A5A8995172854BE0048D1F5 /* SBAppDelegate.m in Sources */,
 				9A5A89A1172854BE0048D1F5 /* SBViewController.m in Sources */,
+				9A5A89AA1728550B0048D1F5 /* SBShape.m in Sources */,
+				9A5A89AD172856FC0048D1F5 /* SBRectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

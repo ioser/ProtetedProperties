@@ -7,6 +7,8 @@
 //
 
 #import "SBViewController.h"
+#import "SBShape.h"
+#import "SBRectangle.h"
 
 @interface SBViewController ()
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	NSLog(@"%@", [[SBShape alloc] init]);
+	NSLog(@"%@", [[SBRectangle alloc] init]);
+	
+	SBRectangle *myRectangle = [[SBRectangle alloc] init];
+	myRectangle.size = 100;
 }
 
 - (void)didReceiveMemoryWarning
