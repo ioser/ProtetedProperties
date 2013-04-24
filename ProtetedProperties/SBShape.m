@@ -11,10 +11,29 @@
 
 @implementation SBShape
 
-@synthesize size = _size;
+//@synthesize size = _size;
+
+- (id)initWithSize:(int)size {
+	self = [super init];
+	
+	if (self != nil) {
+		_size = size;
+		_key = [NSString stringWithFormat:@"%d", _size];
+	}
+	
+	return self;
+}
 
 - (NSString *)description {
-	return [NSString stringWithFormat:@"The object's size is %d", self.size];
+	return [NSString stringWithFormat:@"The object's size is %d with key %@", self.size, self.key];
+}
+
+- (NSString *)getTheKey {
+	return self.key;
+}
+
+- (void)clearTheKey {
+	self.key = nil;
 }
 
 @end

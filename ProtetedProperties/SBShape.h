@@ -10,7 +10,13 @@
 
 @interface SBShape : NSObject {
 	@protected
-	int _size;
+//	int _size;
+//	NSString *key;
 }
+
+- (id)initWithSize:(int)size;
+
+- (NSString *)getTheKey;
+- (void)clearTheKey;
 
 @end

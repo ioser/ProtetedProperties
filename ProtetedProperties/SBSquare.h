@@ -1,5 +1,5 @@
 //
-//  SBRectangle.m
+//  SBSquare.h
 //  ProtetedProperties
 //
 //  Created by Richard E Millet on 4/24/13.
@@ -7,8 +7,7 @@
 //
 
 #import "SBRectangle.h"
-#import "SBShape_ProtectedProperties.h"
 
-@implementation SBRectangle
+@interface SBSquare : SBRectangle
 
 @end

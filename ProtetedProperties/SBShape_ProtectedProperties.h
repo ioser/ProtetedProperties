@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Richard Millet. All rights reserved.
 //
 
-#import "SBShape.h"
 
 @interface SBShape ()
 
 @property (nonatomic) int size;
+@property (nonatomic, strong) NSString *key;
 
 @end

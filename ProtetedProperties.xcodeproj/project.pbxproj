@@ -20,6 +20,7 @@
 		9A5A89A1172854BE0048D1F5 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89A0172854BE0048D1F5 /* SBViewController.m */; };
 		9A5A89AA1728550B0048D1F5 /* SBShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89A91728550B0048D1F5 /* SBShape.m */; };
 		9A5A89AD172856FC0048D1F5 /* SBRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89AC172856FC0048D1F5 /* SBRectangle.m */; };
+		9A5A89B217285CAB0048D1F5 /* SBSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A89B117285CAB0048D1F5 /* SBSquare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,10 @@
 		9A5A89AB172856FC0048D1F5 /* SBRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBRectangle.h; sourceTree = "<group>"; };
 		9A5A89AC172856FC0048D1F5 /* SBRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBRectangle.m; sourceTree = "<group>"; };
 		9A5A89AF172858B70048D1F5 /* SBShape_ProtectedProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBShape_ProtectedProperties.h; sourceTree = "<group>"; };
+		9A5A89B017285CAB0048D1F5 /* SBSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSquare.h; sourceTree = "<group>"; };
+		9A5A89B117285CAB0048D1F5 /* SBSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSquare.m; sourceTree = "<group>"; };
+		9A5A89B317285D090048D1F5 /* SBRectangle_ProtectedProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBRectangle_ProtectedProperties.h; sourceTree = "<group>"; };
+		9A5A89B417285F980048D1F5 /* SBSquare_ProtectedProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSquare_ProtectedProperties.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +124,14 @@
 			isa = PBXGroup;
 			children = (
 				9A5A89A81728550B0048D1F5 /* SBShape.h */,
+				9A5A89AF172858B70048D1F5 /* SBShape_ProtectedProperties.h */,
 				9A5A89A91728550B0048D1F5 /* SBShape.m */,
 				9A5A89AB172856FC0048D1F5 /* SBRectangle.h */,
+				9A5A89B317285D090048D1F5 /* SBRectangle_ProtectedProperties.h */,
 				9A5A89AC172856FC0048D1F5 /* SBRectangle.m */,
-				9A5A89AF172858B70048D1F5 /* SBShape_ProtectedProperties.h */,
+				9A5A89B017285CAB0048D1F5 /* SBSquare.h */,
+				9A5A89B417285F980048D1F5 /* SBSquare_ProtectedProperties.h */,
+				9A5A89B117285CAB0048D1F5 /* SBSquare.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -199,6 +208,7 @@
 				9A5A89A1172854BE0048D1F5 /* SBViewController.m in Sources */,
 				9A5A89AA1728550B0048D1F5 /* SBShape.m in Sources */,
 				9A5A89AD172856FC0048D1F5 /* SBRectangle.m in Sources */,
+				9A5A89B217285CAB0048D1F5 /* SBSquare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

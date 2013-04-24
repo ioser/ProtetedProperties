@@ -9,6 +9,7 @@
 #import "SBViewController.h"
 #import "SBShape.h"
 #import "SBRectangle.h"
+#import "SBSquare.h"
 
 @interface SBViewController ()
 
@@ -20,11 +21,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-	NSLog(@"%@", [[SBShape alloc] init]);
-	NSLog(@"%@", [[SBRectangle alloc] init]);
+	NSLog(@"%@", [[SBShape alloc] initWithSize:100]);
+	NSLog(@"%@", [[SBRectangle alloc] initWithSize:200]);
+	NSLog(@"%@", [[SBSquare alloc] initWithSize:300]);
 	
-	SBRectangle *myRectangle = [[SBRectangle alloc] init];
-	myRectangle.size = 100;
+	SBRectangle *myRectangle = [[SBRectangle alloc] initWithSize:301];
+	NSString *theKey = [myRectangle getTheKey];
+	NSLog(@"The key is %@", theKey);
+	[myRectangle clearTheKey];
+	NSLog(@"The cleared key is %@", theKey);
 }
 
 - (void)didReceiveMemoryWarning
